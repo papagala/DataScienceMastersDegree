@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "statistics"
+version = "0.1.0"
+description = ""
+authors = ["oswaldo.gomez@spglobal.com <oswaldo.gomez@spglobal.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyter = "^1.0.0"
+pandas-bokeh = "^0.5"
+matplotlib = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
