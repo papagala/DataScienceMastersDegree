@@ -8,7 +8,7 @@ python-versions = "*"
 version = "0.1.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Atomic file writes."
 marker = "sys_platform == \"win32\""
 name = "atomicwrites"
@@ -146,6 +146,17 @@ traitlets = ">=4.1.0"
 
 [package.extras]
 test = ["pytest (!=5.3.4)", "pytest-cov", "flaky", "nose"]
+
+[[package]]
+category = "main"
+description = "Unit tests in IPython notebooks."
+name = "ipytest"
+optional = false
+python-versions = ">=3"
+version = "0.8.1"
+
+[package.dependencies]
+packaging = "*"
 
 [[package]]
 category = "main"
@@ -363,7 +374,7 @@ python-versions = "*"
 version = "0.8.4"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "More routines for operating on iterables, beyond itertools"
 name = "more-itertools"
 optional = false
@@ -537,7 +548,7 @@ python-versions = ">=3.5"
 version = "7.1.2"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "plugin and hook calling mechanisms for python"
 name = "pluggy"
 optional = false
@@ -584,7 +595,7 @@ python-versions = "*"
 version = "0.6.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "library with cross-python path, ini-parsing, io, code, log facilities"
 name = "py"
 optional = false
@@ -619,7 +630,7 @@ version = "0.16.0"
 six = "*"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "pytest: simple powerful testing with Python"
 name = "pytest"
 optional = false
@@ -840,7 +851,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "53d7abb1e56f052bffbfc5211fe1270ca2acc0580555226460b6247f6541154c"
+content-hash = "031e1573b4380bb1ca953f8c07f22b8f7f71a77fd95d604c9ae08a9fada29a78"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -894,6 +905,10 @@ importlib-metadata = [
 ipykernel = [
     {file = "ipykernel-5.3.0-py3-none-any.whl", hash = "sha256:a8362e3ae365023ca458effe93b026b8cdadc0b73ff3031472128dd8a2cf0289"},
     {file = "ipykernel-5.3.0.tar.gz", hash = "sha256:731adb3f2c4ebcaff52e10a855ddc87670359a89c9c784d711e62d66fccdafae"},
+]
+ipytest = [
+    {file = "ipytest-0.8.1-py3-none-any.whl", hash = "sha256:11cabbf6601bad1d5f40ef95ee4c79d5b76189c76a93bd03fa1559d9fd229eab"},
+    {file = "ipytest-0.8.1.tar.gz", hash = "sha256:8e42fafbad433c418731dca833f0a165d581af0f376721ba7c0107b782d919e7"},
 ]
 ipython = [
     {file = "ipython-7.15.0-py3-none-any.whl", hash = "sha256:1b85d65632211bf5d3e6f1406f3393c8c429a47d7b947b9a87812aa5bce6595c"},
