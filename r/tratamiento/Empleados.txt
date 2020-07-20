@@ -1,0 +1,11 @@
+Nombre	Sexo	EstadoCivil	Nacionalidad	Edad
+Juan	H	Casado	Mexicano	40
+Hugo	H	Soltero	Mexicano	36
+Laura	M	Soltera	Argentina	28
+Ramon	H	Casado	Chileno	60
+Antonio	H	Casado	Uruguayo	33
+Sofia	M	Casada	China	29
+Alejandra	M	Soltera	Alemana	44
+Alfredo	H	Soltero	Uruguayo	53
+Romina	M	Casada	Chilena	38
+Felipe	H	Casado	Mexicano	28
