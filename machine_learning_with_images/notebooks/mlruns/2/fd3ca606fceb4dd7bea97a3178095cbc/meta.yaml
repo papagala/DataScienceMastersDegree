@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/oswaldo_gomez/maestria/machine_learning_with_images/notebooks/mlruns/2/fd3ca606fceb4dd7bea97a3178095cbc/artifacts
+end_time: 1601693237304
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: fd3ca606fceb4dd7bea97a3178095cbc
+run_uuid: fd3ca606fceb4dd7bea97a3178095cbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1601693237234
+status: 3
+tags: []
+user_id: oswaldo_gomez

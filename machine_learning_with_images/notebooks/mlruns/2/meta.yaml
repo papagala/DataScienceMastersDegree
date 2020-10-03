@@ -1,0 +1,4 @@
+artifact_location: file:///Users/oswaldo_gomez/maestria/machine_learning_with_images/notebooks/mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: final
