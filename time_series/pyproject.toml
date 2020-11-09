@@ -2,10 +2,12 @@
 name = "time_series"
 version = "0.1.0"
 description = ""
-authors = ["oswaldo.gomez@spglobal.com <oswaldo.gomez@spglobal.com>"]
+authors = ["Oswaldo <osw.gom89@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+pycaret = "^2.2"
+boto3 = "^1.16.13"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

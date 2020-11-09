@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/oswaldo_gomez/maestria/time_series/notebooks/mlruns/1/a7eccde5edca42dd817d6d59fc222b4c/artifacts
+end_time: 1604866583918
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: a7eccde5edca42dd817d6d59fc222b4c
+run_uuid: a7eccde5edca42dd817d6d59fc222b4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1604866583699
+status: 3
+tags: []
+user_id: oswaldo_gomez

@@ -1,0 +1,32 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.7.3
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.23.2
+run_id: 9342362db43b42f59c538e2cea8d5f5f
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "duration", "type": "double"}, {"name": "key", "type": "long"},
+    {"name": "loudness", "type": "double"}, {"name": "mode", "type": "long"}, {"name":
+    "tempo", "type": "double"}, {"name": "artist_hotttnesss", "type": "double"}, {"name":
+    "end_of_fade_in", "type": "double"}, {"name": "start_of_fade_out", "type": "double"},
+    {"name": "mode_confidence", "type": "double"}, {"name": "key_confidence", "type":
+    "double"}, {"name": "time_signature", "type": "long"}, {"name": "time_signature_confidence",
+    "type": "double"}, {"name": "year", "type": "long"}, {"name": "popularity", "type":
+    "long"}, {"name": "danceability", "type": "double"}, {"name": "energy", "type":
+    "double"}, {"name": "speechiness", "type": "double"}, {"name": "acousticness",
+    "type": "double"}, {"name": "instrumentalness", "type": "double"}, {"name": "liveness",
+    "type": "double"}, {"name": "valence", "type": "double"}, {"name": "duration_ms",
+    "type": "long"}, {"name": "Points", "type": "long"}, {"name": "Country", "type":
+    "string"}]'
+  outputs: null
+utc_time_created: '2020-11-08 19:59:14.270983'
