@@ -6,8 +6,10 @@ authors = ["Oswaldo <osw.gom89@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-pycaret = "^2.2"
+pycaret = "2.2.1"
 boto3 = "^1.16.13"
+pystan = "^2.19.1"
+fbprophet = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
